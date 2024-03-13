@@ -1,10 +1,10 @@
 ## Before you contribute
 
 -   Is it necessary?
--   Does it make developing reactjs-starter-template-mui easier?
--   Does it fix a bug? -> Create an [issue](https://github.com/lifeparticle/reactjs-starter-template-mui/issues/new) with the steps to reproduce
+-   Does it make developing dr-meds-app easier?
+-   Does it fix a bug? -> Create an [issue](https://github.com/Kernix13/dr-meds-app/issues/new) with the steps to reproduce
 -   Does it break anything? -> Run the tests
--   Does it stick to the original goal of reactjs-starter-template-mui -> ReactJS starter template with Material UI
+-   Does it stick to the original goal of dr-meds-app -> ReactJS starter template with Material UI
 -   Does it reduce the build size?
 -   Does it improve the user experience?
 -   Does it improve the performance?
@@ -68,7 +68,7 @@ yarn test
     3.1.
 
     ```shell
-    git remote add upstream git@github.com:lifeparticle/reactjs-starter-template-mui.git
+    git remote add upstream git@github.com:Kernix13/dr-meds-app.git
     ```
 
     3.2.
@@ -123,7 +123,7 @@ yarn test
 
     7.2 If you're having problem finding the url
 
-        a) https://github.com/lifeparticle/reactjs-starter-template-mui/pulls
+        a) https://github.com/Kernix13/dr-meds-app/pulls
 
         b) Click the button 'New pull request'
 

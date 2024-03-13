@@ -1,6 +1,6 @@
 ## Introduction
 
-Welcome to our ReactJS project! This guide is designed to help you seamlessly set up and use our ReactJS starter template with Material UI. Whether you're a beginner or an experienced developer, these instructions will assist you in customizing and launching your application efficiently.
+Welcome to Dr Meds App! This app will help you manage medications, doctor appointments, important phone numbers, and notes pertaining to someone in your life needing help with their medical condition.
 
 ## Contributing
 
