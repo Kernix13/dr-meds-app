@@ -14,6 +14,7 @@ function App() {
 				<Routes />
 				<Button onClick={() => navigate("/pagea")}>Go to Page A</Button>
 				<Button onClick={() => navigate("/pageb")}>Go to Page B</Button>
+				<Button onClick={() => navigate("/medications")}>Go to Medications</Button>
 				<Icon name="LayoutTemplate" />
 			</ThemeProvider>
 		</div>

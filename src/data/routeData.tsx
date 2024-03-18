@@ -1,7 +1,7 @@
-import { PageA, PageB, PageNotFound } from "pages";
+import { PageA, PageB, PageNotFound, Medications } from "pages";
 import { FC } from "react";
 
-export type RouteId = "/" | "pagea" | "pageb" | "pagenotfound";
+export type RouteId = "/" | "pagea" | "pageb" | "medications" | "pagenotfound";
 
 interface Route {
 	path: string;
@@ -24,6 +24,11 @@ export const routes: Route[] = [
 		id: "pageb",
 		path: "/pageb",
 		component: PageB,
+	},
+	{
+		id: "medications",
+		path: "/medications",
+		component: Medications,
 	},
 	{
 		id: "pagenotfound",
