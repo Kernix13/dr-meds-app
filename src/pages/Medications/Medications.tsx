@@ -24,28 +24,32 @@ const meds = [
     "time": "AM and PM",
     "medName": "Apixaban (Eliquis)",
     "medUse": "Prevent blood clots (Atrial Fib.)",
-    "medDosage": ["1 tablet 2 X's a day", "Dose = 1 tablet = 5mg"]
+    "medDosage": ["1 tablet 2 X's a day", "Dose = 1 tablet = 5mg"],
+    "class": "am-pm"
   },
   {
     "id": 2,
     "time": "PM only",
     "medName": "Metoprolol SUCC ER",
     "medUse": "Prevent stroke, heart attack, kidney",
-    "medDosage": ["1 tablet per day", "Dose = 1 tablet = 25mg"]
+    "medDosage": ["1 tablet per day", "Dose = 1 tablet = 25mg"],
+    "class": "pm-only"
   },
   {
     "id": 3,
     "time": "AM only",
     "medName": "Amiodarone (Pacerone)",
     "medUse": "Heartbeat problems",
-    "medDosage": ["1 tablet daily", "Dose = 1 tablet = 200mg"]
+    "medDosage": ["1 tablet daily", "Dose = 1 tablet = 200mg"],
+    "class": "am-only"
   },
   {
     "id": 4,
     "time": "As Needed",
     "medName": "Acetaminophen (TYLENOL)",
     "medUse": "For pain/aches",
-    "medDosage": ["500-650mg tablet every 6 hrs", "Dose = 1 tablet = 500mg"]
+    "medDosage": ["500-650mg tablet every 6 hrs", "Dose = 1 tablet = 500mg"],
+    "class": "as-needed"
   },
 ]
 
@@ -62,7 +66,7 @@ const Medications : FC = () => {
               <Card variant="outlined">
                   <CardContent>
                     <Pill color="#0000CB" />
-                    <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                    <Typography className={med.class} sx={{ mb: 1.5 }} color="text.secondary">
                       {med.time}
                     </Typography>
                     <Typography variant="h6" component="div" mt={1}>
